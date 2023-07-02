@@ -2,8 +2,8 @@
 import "bootstrap";
 import "./style.css";
 
-import "./assets/img/rigo-baby.jpg";
-import "./assets/img/4geeks.ico";
+// import "./assets/img/rigo-baby.jpg";
+// import "./assets/img/4geeks.ico";
 
 // import '../style/index.scss';
 
@@ -19,7 +19,7 @@ let generateExcuse = () => {
     "Your grandma",
     "My turtle",
     "My bird",
-    "A rogue donkey"
+    "A rogue donkey",
   ];
   let action = [
     "ate",
@@ -28,7 +28,7 @@ let generateExcuse = () => {
     "broke",
     "ripped up",
     "smashed",
-    "burned"
+    "burned",
   ];
   let what = [
     "my homework",
@@ -36,14 +36,14 @@ let generateExcuse = () => {
     "the car seat",
     "the bed",
     "my laptop",
-    "my shirt"
+    "my shirt",
   ];
   let when = [
     "before the class",
     "after my shower",
     "when I tried to leave",
     "during my lunch",
-    "when I was singing"
+    "when I was singing",
   ];
 
   let whoIndex = Math.floor(Math.random() * who.length);
