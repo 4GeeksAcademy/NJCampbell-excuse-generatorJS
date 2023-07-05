@@ -1,11 +1,11 @@
 /* eslint-disable */
-import "bootstrap";
-import "./style.css";
+// import "bootstrap";
+// import "./style.css";
 
 // import "./assets/img/rigo-baby.jpg";
 // import "./assets/img/4geeks.ico";
 
-// import '../style/index.scss';
+// import "../style/index.css";
 
 window.onload = () => {
   document.querySelector(".btn").addEventListener("click", () => {

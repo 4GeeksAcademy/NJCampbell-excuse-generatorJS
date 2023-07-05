@@ -1,6 +1,11 @@
 /* @import "~bootstrap/dist/css/bootstrap.min.css"; */
 body {
-  background: rgb(206, 184, 201);
+  background: rgb(238, 174, 202);
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
   text-align: center;
 }
 
@@ -24,6 +29,7 @@ body {
 .container {
   padding-top: 10%;
   font-size: large;
+  height: 1200px;
 }
 
 #theExcuse {
